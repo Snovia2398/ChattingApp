@@ -1,0 +1,62 @@
+.addUser{
+    padding: 30px;
+    background-color: rgba(17, 25, 40, 0.781);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.addUser .addUsrForm{
+    display: flex;
+    gap: 20px;
+}
+
+.addUser .addUsrForm .addUsrInput{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.addUser .addUsrForm .addUsrSearch{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.addUser .usr{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.addUser .usr .detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.addUser .usr .detail .addUsrImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.addUser .usr .addUsr{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
